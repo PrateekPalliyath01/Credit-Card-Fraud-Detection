@@ -12,22 +12,6 @@ Time: Number of seconds elapsed between this transaction and the first transacti
 Amount: Transaction amount.
 Class: Label for fraud detection (0: legitimate, 1: fraudulent).
 
-Credit-Card-Fraud-Detection/
-│
-├── data/ 
-│   └── creditcard.csv         # Dataset file
-│
-├── notebooks/
-│   └── Fraud_Detection.ipynb  # Jupyter notebook containing the code for EDA, model training, and evaluation
-│
-├── src/
-│   ├── data_preprocessing.py  # Data cleaning and preprocessing steps
-│   ├── model_training.py      # Code for training machine learning models
-│   ├── model_evaluation.py    # Evaluation metrics and visualizations
-│
-├── README.md                  # Project documentation
-│
-└── requirements.txt           # Required packages and dependencies
 
 ## Libraries and Tools Used
 Python: Core programming language
@@ -49,7 +33,6 @@ pip install -r requirements.txt
 
 3. Run the Jupyter Notebook:
 jupyter notebook
-
 
 
 
